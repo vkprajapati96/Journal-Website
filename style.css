@@ -1427,6 +1427,7 @@ body {
 }
 
 .social-icons {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1442,30 +1443,144 @@ body {
 
 .social-icon i {
     border-radius: 50%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 4px;
     background-color: blue;
     color: white;
 }
 
 /* About Us section */
-
-.about-us-container {
-    width: 100;
+.fotter-container{
+    width: 100%;
+    background-color:white   
+}
+.fotter-wrap{
+    width: 90%;
+    margin: 0 auto;
     background-color: white;
+    display: flex;  
 }
 
-.about-main {
-    max-width: 90%;
+.zm-1{
+    padding: .8rem 0 0 1.3rem   ;
+    width: 25%;
+    height: 280px;
+    /* border-right-color: black; */
+    border-right: 1px solid #f0f0f0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* place-items:start ; */
 
 
 }
 
-.about-us {}
+.zm-1 h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
 
+ #hr{
+    width: 50px;
+    height: 2px;
+    background-color: red;
 
+}
+.zm-list{
+padding: 0;
+margin-top:1rem;
+display: flex;
+flex-direction: column;
+gap:.8rem;
+}
+.zm-list li{
+    font-size: 15px;
+    list-style: none;
+    color: blue;
+    margin: 0;
+}
+
+.zm{
+    padding: .8rem 0 0 1rem   ;
+    width: 25%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zm h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.zm-desc{
+margin-top: 1rem;
+}
+
+.zm-desc p{
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+
+.zm-inp{
+    position: relative;   
+}
+.zm input{
+    border-radius: 3px;
+width: 100%;
+height: 40px;
+background-color: white;
+outline: none;
+padding: 2px 5px;
+border: 1px solid #ddd;
+
+}
+
+.zm button{
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+padding: 5px 8px;
+position: absolute;
+border: none;
+background:blue;
+right: 3%;
+top: 14%;
+}
+
+#privacy{
+display: flex;
+margin-top:1rem;
+align-items: center;
+justify-content: center;
+gap: 3px;
+padding: 0;
+
+}
+
+#privacy input{
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    /* margin: 0; */
+    padding: 0;
+    border:1px solid black;
+    background-color: blue;
+    color: white;
+}
+
+#privacy p{
+    font-size: 12px;    
+    color: grey;
+    margin: 0;
+}
+
+#privacy p span{
+    font-size: 12px;
+}
 
 /*  copyright section */
 .copyright-container {
@@ -1476,10 +1591,7 @@ body {
 .copyright-main {
     margin: 0 auto;
     max-width: 90%;
-    /* background-color: green; */
-    /* border: 1px solid red; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     justify-content: space-between;
     padding: 4px 0;
@@ -1488,7 +1600,6 @@ body {
 
 .copyright-text {
     color: gray;
-    /* margin: 0; */
 }
 
 .copyright-text p {
@@ -1503,8 +1614,6 @@ body {
 }
 
 .copyright-icon {
-    /* width: 2rem;/ */
-    /* height: 2rem; */
 }
 
 .copyright-icon i {
