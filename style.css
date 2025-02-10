@@ -267,12 +267,12 @@ body {
     gap: 5px;
     /* width:100%; */
     height: 450px;
-    /* border:1px solid red */
+    /* border:1px solid red; */
     margin-top: 10px;
 }
 
 #main #main-one {
-    width: 70%;
+    width: 80%;
     height: 100%;
     background-color: gray;
 
@@ -460,7 +460,7 @@ body {
     /* padding:0 2px; */
     position: relative;
     width: 250px;
-    height: 250px;
+    height: 270px;
     overflow: hidden;
     border-radius: 10px;
     flex-shrink: 0;
@@ -469,7 +469,7 @@ body {
 .cards .card .card-img {
     position: relative;
     width: 250px;
-    height: 250px;
+    height: 270px;
     /* border: 1px solid red; */
 }
 
@@ -635,8 +635,7 @@ body {
 
 .featured-headdphn h5 {
     margin: 5px 0;
-    font-size: 18px;
-    font-weight: bold
+    font-size: 16px;
 }
 
 .featured-headdphn p {
@@ -1643,9 +1642,9 @@ margin-top: 1rem;
     position: relative;   
 }
 .footer-inp input{
-    border-radius: 3px;
+border-radius: 3px;
 width: 100%;
-height: 40px;
+height: 45px;
 background-color: white;
 outline: none;
 padding: 2px 5px;
@@ -1669,19 +1668,15 @@ top: 14%;
 display: flex;
 margin-top:1rem;
 align-items: center;
-justify-content: center;
-gap: 3px;
+gap: 4px;
 padding: 0;
-
 }
 
 #privacy input{
     cursor: pointer;
     width: 13px;
     height: 13px;
-    /* margin: 0; */
-    padding: 0;
-    border:1px solid black;
+    padding:0;
     background-color: blue;
     color: white;
 }
@@ -1729,8 +1724,6 @@ padding: 0;
     gap: 4px;
 }
 
-.copyright-icon {
-}
 
 .copyright-icon i {
     font-size: 1.5rem;
